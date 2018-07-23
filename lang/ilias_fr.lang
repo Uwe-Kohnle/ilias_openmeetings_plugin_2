@@ -1,0 +1,119 @@
+// 
+// French Language File for Openmeetings Plugin
+//
+<!-- language file start -->
+obj_xomv#:#openmeetings classe virtuelle
+objs_xomv#:#openmeetings classe virtuelle
+obj_xomv_duplicate#:#Copieer
+objs_xomv_duplicate#:#copier classe virtuelle
+obj_xomv_select#:#Choisir classe virtuelle
+xomv_add#:#Ajouter classe virtuelle
+xomv_new#:#Ajouter nouvelle classe virtuelle
+xomv_read#:#Accès mode lecture de classe virtuelle
+xomv_write#:#Éditer classe virtuelle
+xomv_delete#:#Supprimer classe virtuelle
+xomv_visible#:#Classe virtuelle est visible
+xomv_edit_permission#:#Changer autorisations
+openmeetings_plugin_configuration#:#Configuration
+saving_invoked#:#Configurations stockées
+conf_svrprotocol#:#Protocole de communication
+conf_svrurl#:#URL	
+info_svrurl#:#Adresse du serveur openmeetings (sand protocole et sans &#039;/&#039; à la fin)
+conf_svrport#:#Port
+info_svrport#:#Standard est Port 5080. Veuillez noter que les pare-feus peuvent bloquer des ports. 
+conf_svrappname#:#Nom de l&#039;application
+info_svrappname#:#Par défaut: &#039;openmeetings&#039;. Si vous avez renommé l&#039;application openmeetings, vous pouvez entrer un autre nom ici.
+conf_svrusername#:#Nom utilisateur
+info_svrusername#:#L&#039;utilisateur doit avoir le droit &#039;Soap&#039; dans openmeetings. Rien de plus.
+conf_svrpassword#:#Mot de passe
+info_svrpassword#:#Le mot de passe doit contenir des caractères spéciaux et des lettres majuscules et minuscules. 
+conf_svrversion#:#Version openmeetings
+conf_debug#:#Informations de debug
+info_debug#:#Des Informations complémentaires sur le déroulement seront sauvées dans le ILIAS-Log-fichier.
+conf_isDemoRoom#:#Salle demo: ajustable
+info_isDemoRoom#:#Salle demo peut être activée et desactivée en objet sous configurations. 
+conf_defDemoRoom#:#Salle demo: activée
+info_defDemoRoom#:#Si vous activez cette option, la salle será ouverte temporairement. 
+set_demo#:#Salle demo
+set_info_demo#:#Si vous activez cette option, la salle será ouverte temporairement.
+conf_ispublic#:#Salle publique: ajustable
+info_ispublic#:#Une salle peut être activée et desactivée comme salle publique en objet sous configurations. 
+conf_defPublic#:#Salle publique: activée
+info_defPublic#:#Des salles publiques peuvent être entrées par tous les utilisateurs openmeetings. Ces utilisateurs ne doivent pas exister en ILIAS.
+set_isPublic#:#Salle est publique
+set_info_isPublic#:#Des salles publiques peuvent être entrées par tous les utilisateurs openmeetings. Ces utilisateurs ne doivent pas exister en ILIAS.
+conf_allowUserQuestions#:#Permettre des questions utilisateur: ajustable
+info_allowUserQuestions#:#L&#039;option pour questions utilisateur peuvent être activée et desactivée en objet sous configurations. 
+conf_defallowuserquestions#:#Permettre des questions utilisateur: activé
+info_defallowuserquestions#:#Si vous desactivéz cette option, le bouton pour demander la modération ne sera pas visible pour autres participants et votre cours ne sera pas dérangé.
+set_allowUserQuestions#:#Permettre questions utilisateur
+set_info_allowUserQuestions#:#i vous desactivéz cette option, le bouton pour demander la modération ne sera pas visible pour autres participants et votre cours ne sera pas dérangé.
+conf_isAudioOnly#:#Salle seulement audio: ajustable
+info_isAudioOnly#:#Une salle peut être activée et desactivée avec l&#039;option &#039;audio seulement&#039; en objet sous configurations.
+conf_defisAudioOnly#:#Salle seulement audio: activée
+info_defisAudioOnly#:#Avec cette option vous permettez seulement une transmission audio dans la salle et vous couper le video. Ca peut être utile pour réduire la bande passante.
+set_audioOnly#:#Salle seulement audio
+set_info_audioOnly#:#Avec cette option vous permettez seulement une transmission audio dans la salle et vous couper le video. Ca peut être utile pour réduire la bande passante.
+conf_allowrecording#:#Enregistrement et partager l&#039;écran: ajustable 
+info_allowrecording#:#Une salle peut être activée et desactivée avec les options pour enregistrement et partager l&#039;écran en objet sous configurations.
+conf_defallowrecording#:#Enregistrement et partager l&#039;écran: activé
+info_defallowrecording#:#Java est nécessaire. Tous peuvent appeler des enregistrements. 
+set_allowRecording#:#Permettre enregistrement
+set_info_allowRecording#:#Java est nécessaire. Tous peuvent appeler des enregistrements.
+conf_defwaitforrecording#:#Attendre enregistrement
+info_defwaitforrecording#:#Modération doit démarrer enregistrement
+set_waitForRecording#:#Attendre enregistrement
+set_info_waitForRecording#:#Modération doit démarrer enregistrement.
+set_moderated#:#Salle est modérée
+set_info_moderated#:#Dans une salle modérée, utilisateurs avec le droit &#039;éditer configurations&#039; seront automatiquement modérateurs en entrant dans la salle. 
+crs_create_xomv#:#Créer salle virtuelle
+grp_create_xomv#:#Créer salle virtuelle
+fold_create_xomv#:#Créer salle virtuelle
+root_create_xomv#:#Créer salle virtuelle
+cat_create_xomv#:#Créer salle virtuelle
+rbac_create_xomv#:#Créer salle virtuelle
+content#:#Content#:#Créer salle virtuelle
+Connect#:#connecter
+connect_btn#:#connecter
+comment#:#Commentaire
+properties#:#Configurations
+edit_properties#:#Éditer configurations
+title#:#Titre
+description#:#Description
+option_one#:#Option 1
+option_two#:#Option 2
+save#:#Stocker
+cancel#:#Annuler
+edit#:#Configurations
+status#:#État
+offline#:#Offline
+rm_type#:#Modus
+rm_conference#:#Conférence (1-25 participants)
+rm_restricted#:#Présentation (1-150 participants)
+rm_interview#:#Interview
+capacity#:#Nombre maximal de participants
+info_capacity_conference#:#En désactivant le video, un maximum de 25 participants peut être indiqué. 
+info_capacity_presentation#:#Le video des participants et toujours désactivé. 
+appname#:#Registre
+om_hint#:#Remarque: Cette salle virtuelle est crée avec openmeetings. Des informations seront additionellement gardés dans openmeetings. 
+record_name#:#Nom de l&#039;enregistrement
+record_time#:#Durée
+record_width#:#Largeur
+record_height#:#Hauteur
+record_none#:#Aucun enregistrement disponible.
+delete_recording#:#Supprimer enregistrement
+recording_deleted#:#Enregistrement supprimé
+om_start_option#:#Comment est-ce que vous aimez démarrer la salle virtuelle? 
+om_start_iframe#:#Dans cette fenêtre de l&#039;écran
+om_start_iframe_only#:#Démarrer salle virtuelle dans cette fenêtre de l&#039;écran
+om_start_iframe_auto#:#Secondes jusqu&#039;au démarrage automatique de la salle virtuelle<br/>dans cette fenêtre de l&#039;écran. Veuillez connecter votre casque. 
+om_start_window#:#Dans une nouvelle fenêtre 
+om_start_window_only#:#Démarrer une salle virtuelle dans une nouvelle fenêtre
+om_start_window_auto#:#Secondes jusqu&#039;au démarrage automatique de la salle virtuelle<br/>dans cette fenêtre de l&#039;écran. Veuillez connecter votre casque.
+om_start_stop#:#Annuler démarrage
+om_start_disable#:#Secondes jusqu&#039;à l&#039;annulation du démarrage. 
+om_start_disabled#:#Annulation du démarrage. 
+om_window_blocked#:#On ne peut pas ouvrir la salle virtuelle automatiquement dans une nouvelle fenêtre.<br/>Veuillez permettre Pop-up-fenêtre ou démarrer manuellement.
+om_window_started#:#La salle virtuelle est ouverte dans une nouvelle fenêtre. 
+om_window_closed#:#La salle virtuelle a été annulée. 
+om_reload#:#Charger page à nouveau

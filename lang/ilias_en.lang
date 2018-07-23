@@ -1,0 +1,119 @@
+// 
+// English Language File for Openmeetings Plugin
+//
+<!-- language file start -->
+obj_xomv#:#openmeetings VC
+objs_xomv#:#openmeetings virtual classroom
+obj_xomv_duplicate#:#copy
+objs_xomv_duplicate#:#copy virtual classroom
+obj_xomv_select#:#choose virtual classroom
+xomv_add#:#add virtual classroom
+xomv_new#:#add new virtual classroom
+xomv_read#:#enable read access for the virtual classroom
+xomv_write#:#edit virtual classroom
+xomv_delete#:#delete virtual classroom
+xomv_visible#:#virtual classroom is visible
+xomv_edit_permission#:#change rights
+openmeetings_plugin_configuration#:#configuration
+saving_invoked#:#options saved
+conf_svrprotocol#:#communication protocol
+conf_svrurl#:#URL	
+info_svrurl#:#address of the openmeetings server (without protocol and without '/' at the end)
+conf_svrport#:#Port
+info_svrport#:#Standard is Port 5080. Please note that firewalls can block ports.
+conf_svrappname#:#Name of the Application
+info_svrappname#:#Standard: 'openmeetings'. If you have renamed the openmeetings application you can enter your alternative name here.'
+conf_svrusername#:#User name
+info_svrusername#:#User has to have the right 'Soap' within openmeetings. No addition.
+conf_svrpassword#:#Password
+info_svrpassword#:#The password should include special characters and letters in lower and upper case.
+conf_svrversion#:#openmeetings-Version
+conf_debug#:#Debug-information
+info_debug#:#Further information on the process will be saved within the ILIAS-Log-file.
+conf_isDemoRoom#:#Demo room: configurable
+info_isDemoRoom#:#Demo room can be activated or deactivated within settings upon object.
+conf_defDemoRoom#:#Demo room: activated
+info_defDemoRoom#:#If you activate this option, the room will be opened for a short period of time. 
+set_demo#:#Demo room
+set_info_demo#:#If you activate this option, the room will be opened for a short period of time.
+conf_ispublic#:#Public room: configurable
+info_ispublic#:#A room can be activated or deactivated as a public room upon object within settings. 
+conf_defPublic#:#Public room: activated 
+info_defPublic#:#Public rooms can be entered by all openmeetings users. These users do not have to be present in ILIAS.
+set_isPublic#:#Room is public 
+set_info_isPublic#:#Public rooms can be entered by all openmeetings users. These users do not have to be present in ILIAS.
+conf_allowUserQuestions#:#Allow user question: configurable
+info_allowUserQuestions#:#The option of user questions can be activated or deactivated upon object within settings. 
+conf_defallowuserquestions#:#Allow user questions: activated 
+info_defallowuserquestions#:#Once this option is deactivated, the button to apply for moderation is not visible for other participants and you will not be disturbed in your presentation. 
+set_allowUserQuestions#:#Allow user questions 
+set_info_allowUserQuestions#:#Once this option is deactivated, the button to apply for moderation is not visible for other participants and you will not be disturbed in your presentation.
+conf_isAudioOnly#:#Audio only room: configurable
+info_isAudioOnly#:#A room can be activated or deactivated with the help of the option 'audio only' upon object within settings.
+conf_defisAudioOnly#:#Audio only room: activated
+info_defisAudioOnly#:#With this option you allow an audio only transmission and deactivate video within the room. This can be useful to reduce bandwidth. 
+set_audioOnly#:#Audio only room
+set_info_audioOnly#:#With this option you allow an audio only transmission and deactivate video within the room. This can be useful to reduce bandwidth.
+conf_allowrecording#:#Recording and screen sharing: configurable 
+info_allowrecording#:#A room can be activated or deactivated using the options for recording and screen sharing upon object within settings. 
+conf_defallowrecording#:#Recording and screen sharing: activated 
+info_defallowrecording#:#Java is required. Recordings can be called by all. 
+set_allowRecording#:#Allow recording
+set_info_allowRecording#:#Java is required. Recordings can be called by all.
+conf_defwaitforrecording#:#Wait for recording
+info_defwaitforrecording#:#Moderator must start recording. 
+set_waitForRecording#:#Wait for recording
+set_info_waitForRecording#:#Moderator must start recording.
+set_moderated#:#Room is moderated
+set_info_moderated#:#In a moderated room, users having the right to 'edit setting' are automatically moderators when entering a room. 
+crs_create_xomv#:#create virtual room 
+grp_create_xomv#:#create virtual room
+fold_create_xomv#:#create virtual room
+root_create_xomv#:#create virtual room
+cat_create_xomv#:#create virtual room
+rbac_create_xomv#:#create virtual room
+content#:#Content#:#create virtual room
+Connect#:#connect
+connect_btn#:#connect
+comment#:#comment
+properties#:#settings
+edit_properties#:#edit settings
+title#:#Title
+description#:#Description
+option_one#:#Option 1
+option_two#:#Option 2
+save#:#Save
+cancel#:#Cancel
+edit#:#Settings
+status#:#Status
+offline#:#Off-line
+rm_type#:#Mode
+rm_conference#:#Conference (1-25 participants)
+rm_restricted#:#Presentation (1-150 participants)
+rm_interview#:#Interview
+capacity#:#Maximum number of participants
+info_capacity_conference#:#Up to 25 participants can be mentioned upon deactivating video. 
+info_capacity_presentation#:#Video of participants is always deactivated. 
+appname#:#Directory
+om_hint#:#Information: This virtual classroom has been created with openmeetings. Data will additionally be held in openmeetings.
+record_name#:#Name of recording
+record_time#:#Duration
+record_width#:#Width
+record_height#:#Height
+record_none#:#No recording available.
+delete_recording#:#Delete recording
+recording_deleted#:#Recording deleted
+om_start_option#:#How would you like to start the virtual classroom? 
+om_start_iframe#:#in this screen window
+om_start_iframe_only#:#Launch virtual classroom in this screen window 
+om_start_iframe_auto#:#Seconds until the virtual classroom launches automatically<br/>in this screen window. Please connect your headset.
+om_start_window#:#in a new tab
+om_start_window_only#:#Launch virtual classroom in a new tab
+om_start_window_auto#:#Seconds until the virtual classroom launches automatically<br/>in this screen window. Please connect your headset.
+om_start_stop#:#Cancel launch
+om_start_disable#:#Seconds until canceling the launch.
+om_start_disabled#:#Canceling launch.
+om_window_blocked#:#The virtual classroom could not open automatically in a new tab.<br/>Allow pop-up-windows or launch manually now.
+om_window_started#:#The virtual classroom has been launched in a new tab. 
+om_window_closed#:#The virtual classroom has been ended. 
+om_reload#:#Reload page

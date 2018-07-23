@@ -1,0 +1,119 @@
+// 
+// German Language File for Openmeetings Plugin
+//
+<!-- language file start -->
+obj_xomv#:#Openmeetings VC
+objs_xomv#:#Openmeetings virtuelle Klassenzimmer
+obj_xomv_duplicate#:#Kopieren
+objs_xomv_duplicate#:#virtuelles Klassenzimmer kopieren
+obj_xomv_select#:#virtuelles Klassenzimmer auswählen
+xomv_add#:#virtuelles Klassenzimmer hinzufügen
+xomv_new#:#neues virtuelles Klassenzimmer hinzufügen
+xomv_read#:#lesender Zugriff auf das virtuelle Klassenzimmer
+xomv_write#:#virtuelles Klassenzimmer bearbeiten
+xomv_delete#:#virtuelles Klassenzimmer löschen
+xomv_visible#:#virtuelles Klassenzimmer ist sichtbar
+xomv_edit_permission#:#Berechtigungen ändern
+openmeetings_plugin_configuration#:#Konfiguration
+saving_invoked#:#Einstellungen gespeichert
+conf_svrprotocol#:#Kommunikationsprotokoll
+conf_svrurl#:#URL	
+info_svrurl#:#Adresse des Openmeetings-Servers (ohne Protokoll und ohne '/' am Ende)
+conf_svrport#:#Port
+info_svrport#:#Standard ist Port 5080. Bitte beachten Sie, dass Firewalls Ports sperren können.
+conf_svrappname#:#Name der Applikation
+info_svrappname#:#Standard: 'openmeetings'. Wenn Sie die Openmeetings-Applikation umbenannt haben, können Sie hier einen anderen Namen eingeben.
+conf_svrusername#:#Benutzername
+info_svrusername#:#Der Benutzer muss in Openmeetings das Recht 'Soap' haben. Mehr nicht.
+conf_svrpassword#:#Passwort
+info_svrpassword#:#Das Passwort sollte Sonderzeichen und Buchstaben in Groß- und Kleinschreibung haben.
+conf_svrversion#:#Openmeetings-Version
+conf_debug#:#Debug-Informationen
+info_debug#:#Weitergehende Informationen zum Ablauf werden in der ILIAS-Log-Datei gespeichert.
+conf_isDemoRoom#:#Demoraum: einstellbar
+info_isDemoRoom#:#Demoraum kann beim Objekt unter Einstellungen aktiviert oder deaktiviert werden.
+conf_defDemoRoom#:#Demoraum: aktiviert
+info_defDemoRoom#:#Wenn sie diese Option aktivieren, ist der Raum kurzzeitig geöffnet.
+set_demo#:#Demoraum
+set_info_demo#:#Wenn sie diese Option aktivieren, ist der Raum kurzzeitig geöffnet.
+conf_ispublic#:#Öffentlicher Raum: einstellbar
+info_ispublic#:#Ein Raum kann als öffentlicher Raum beim Objekt unter Einstellungen aktiviert oder deaktiviert werden.
+conf_defPublic#:#Öffentlicher Raum: aktiviert
+info_defPublic#:#Öffentliche Räume können von allen Openmeetings-Nutzern betreten werden. Diese Nutzer müssen nicht in ILIAS vorhanden sein.
+set_isPublic#:#Raum ist öffentlich
+set_info_isPublic#:#Öffentliche Räume können von allen Openmeetings-Nutzern betreten werden. Diese Nutzer müssen nicht in ILIAS vorhanden sein.
+conf_allowUserQuestions#:#Benutzerfragen erlauben: einstellbar
+info_allowUserQuestions#:#Die Option für Benutzerfragen kann beim Objekt unter Einstellungen aktiviert oder deaktiviert werden.
+conf_defallowuserquestions#:#Benutzerfragen erlauben: aktiviert
+info_defallowuserquestions#:#Wenn sie diese Option deaktivieren, ist die Schaltfläche zum Beantragen der Moderation für andere Teilnehmer nicht sichtbar und Sie werden nicht in ihrem Vortrag gestört.
+set_allowUserQuestions#:#Benutzerfragen erlauben
+set_info_allowUserQuestions#:#Wenn Sie diese Option aktivieren ist die Schaltfläche zum Beantragen der Moderation für andere Teilnehmer nicht sichtbar und Sie werden nicht in ihrem Vortrag gestört.
+conf_isAudioOnly#:#Raum nur mit Audio: einstellbar
+info_isAudioOnly#:#Ein Raum kann mit der Option 'nur mit Audio' beim Objekt unter Einstellungen aktiviert oder deaktiviert werden.
+conf_defisAudioOnly#:#Raum nur mit Audio: aktiviert
+info_defisAudioOnly#:#Mit dieser Option erlauben Sie im Raum nur eine Audioübertragung und schalten das Video ab. Dies kann sinnvoll sein um Bandbreite zu reduzieren.
+set_audioOnly#:#Raum nur mit Audio
+set_info_audioOnly#:#Mit dieser Option erlauben Sie im Raum nur eine Audioübertragung und schalten das Video ab. Dies kann sinnvoll sein um Bandbreite zu reduzieren.
+conf_allowrecording#:#Aufnahmen und Screensharing: einstellbar
+info_allowrecording#:#Ein Raum kann mit den Optionen für Aufnahmen und Screensharing beim Objekt unter Einstellungen aktiviert oder deaktiviert werden.
+conf_defallowrecording#:#Aufzeichnung und Screensharing: aktiviert
+info_defallowrecording#:#Es wird Java benötigt. Aufzeichnungen können von allen aufgerufen werden.
+set_allowRecording#:#Aufzeichnung erlauben
+set_info_allowRecording#:#Es wird Java benötigt. Aufzeichnungen können von allen aufgerufen werden.
+conf_defwaitforrecording#:#Warten auf Aufzeichnung
+info_defwaitforrecording#:#Moderator muss Aufzeichnung starten.
+set_waitForRecording#:#Warten auf Aufzeichnung
+set_info_waitForRecording#:#Moderator muss Aufzeichnung starten.
+set_moderated#:#Raum ist moderiert
+set_info_moderated#:#In einem moderierten Raum sind Nutzer mit dem Recht 'Einstellungen bearbeiten' beim Betreten des Raums automatisch Moderatoren.
+crs_create_xomv#:#virtuelles Klassenzimmer erstellen
+grp_create_xomv#:#virtuelles Klassenzimmer erstellen
+fold_create_xomv#:#virtuelles Klassenzimmer erstellen
+root_create_xomv#:#virtuelles Klassenzimmer erstellen
+cat_create_xomv#:#virtuelles Klassenzimmer erstellen
+rbac_create_xomv#:#virtuelles Klassenzimmer erstellen
+content#:#Content#:#virtuelles Klassenzimmer erstellen
+Connect#:#verbinden
+connect_btn#:#verbinden
+comment#:#Kommentar
+properties#:#Einstellungen
+edit_properties#:#Einstellungen bearbeiten
+title#:#Titel
+description#:#Beschreibung
+option_one#:#Option 1
+option_two#:#Option 2
+save#:#speichern
+cancel#:#abbrechen
+edit#:#Einstellungen
+status#:#Status
+offline#:#Offline
+rm_type#:#Modus
+rm_conference#:#Konferenz (1-25 Teilnehmer)
+rm_restricted#:#Präsentation (1-150 Teilnehmer)
+rm_interview#:#Interview
+capacity#:#Maximale Teilnehmerzahl
+info_capacity_conference#:#Bei deaktiviertem Video können bis zu 25 Teilnehmer angegeben werden.
+info_capacity_presentation#:#Das Video der Teilnehmer ist stets deaktiviert.
+appname#:#Verzeichnis
+om_hint#:#Hinweis: Dieses virtuelle Klassenzimmer ist mit Openmeetings realisiert. Daten werden zusätzlich in Openmeetings gehalten.
+record_name#:#Name der Aufzeichnung
+record_time#:#Dauer
+record_width#:#Breite
+record_height#:#Höhe
+record_none#:#Keine Aufzeichnung vorhanden.
+delete_recording#:#Aufzeichnung löschen
+recording_deleted#:#Aufzeichnung gelöscht
+om_start_option#:#Wie möchten Sie das virtuelle Klassenzimmer starten?
+om_start_iframe#:#in diesem Bildschirmfenster
+om_start_iframe_only#:#Virtuelles Klassenzimmer in diesem Bildschirmfenster starten
+om_start_iframe_auto#:#Sekunden bis zum automatischen Start des virtuellen Klassenzimmers<br/>in diesem Bildschirmfenster. Bitte schließen Sie Ihr Headset an.
+om_start_window#:#in einem neuen Fenster
+om_start_window_only#:#Virtuelles Klassenzimmer in einem neuen Fenster starten
+om_start_window_auto#:#Sekunden bis zum automatischen Start des virtuellen Klassenzimmers<br/>in einem neuen Fenster. Bitte schließen Sie Ihr Headset an.
+om_start_stop#:#Start abbrechen
+om_start_disable#:#Sekunden bis zum Abbruch der Startmöglichkeit.
+om_start_disabled#:#Abbruch der Startmöglichkeit.
+om_window_blocked#:#Das virtuelle Klassenzimmer konnte nicht automatisch in einem neuen Fenster gestartet werden.<br/>Erlauben Sie hier Pop-up-Fenster oder starten Sie jetzt manuell.
+om_window_started#:#Das virtuelle Klassenzimmer wurde in einem neuen Fenster gestartet.
+om_window_closed#:#Das virtuelle Klassenzimmer wurde beendet.
+om_reload#:#Seite neu laden
