@@ -104,16 +104,16 @@ record_none#:#No recording available.
 delete_recording#:#Delete recording
 recording_deleted#:#Recording deleted
 om_start_option#:#How would you like to start the virtual classroom? 
-om_start_iframe#:#in this screen window
-om_start_iframe_only#:#Launch virtual classroom in this screen window 
-om_start_iframe_auto#:#Seconds until the virtual classroom launches automatically<br/>in this screen window. Please connect your headset.
-om_start_window#:#in a new tab
-om_start_window_only#:#Launch virtual classroom in a new tab
-om_start_window_auto#:#Seconds until the virtual classroom launches automatically<br/>in this screen window. Please connect your headset.
+om_start_iframe#:#in this tab
+om_start_iframe_only#:#Launch virtual classroom in this tab 
+om_start_iframe_auto#:#Seconds until the virtual classroom launches automatically<br/>in this tab. Please connect your headset.
+om_start_window#:#in a new window
+om_start_window_only#:#Launch virtual classroom in a new window
+om_start_window_auto#:#Seconds until the virtual classroom launches automatically<br/>in a new window. Please connect your headset.
 om_start_stop#:#Cancel launch
 om_start_disable#:#Seconds until canceling the launch.
 om_start_disabled#:#Canceling launch.
-om_window_blocked#:#The virtual classroom could not open automatically in a new tab.<br/>Allow pop-up-windows or launch manually now.
-om_window_started#:#The virtual classroom has been launched in a new tab. 
+om_window_blocked#:#The virtual classroom could not open automatically in a new window.<br/>Allow pop-up-windows or launch manually now.
+om_window_started#:#The virtual classroom has been launched in a new window. 
 om_window_closed#:#The virtual classroom has been ended. 
 om_reload#:#Reload page
